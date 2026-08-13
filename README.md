@@ -1,7 +1,5 @@
 # Hi there! I'm Junya Shiramizu 👋
 
-フロントエンドエンジニアです。主に Chrome 拡張機能の開発をしています。
-
 <p>
   <img src="https://komarev.com/ghpvc/?username=shiramizu-junya&style=flat-square&color=blue" alt="Profile Views" />
 </p>
