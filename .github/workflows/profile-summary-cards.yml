@@ -1,0 +1,26 @@
+name: GitHub Profile Summary Cards
+
+on:
+  # 毎日 03:00 UTC（日本時間 12:00）に自動更新
+  schedule:
+    - cron: "0 18 * * *"
+  # 手動実行もできるようにする
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          username: ${{ github.repository_owner }}
+          branch: main
+          # UTC からの時差（日本は +9）。productive-time カードの時刻表示に使う
+          utcOffset: 9
