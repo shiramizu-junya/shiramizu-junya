@@ -20,7 +20,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          username: ${{ github.repository_owner }}
-          branch: main
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
           # UTC からの時差（日本は +9）。productive-time カードの時刻表示に使う
-          utcOffset: 9
+          UTC_OFFSET: 9
