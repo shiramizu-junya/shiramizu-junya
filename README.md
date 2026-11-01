@@ -20,7 +20,6 @@
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
 ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
 **Build & Quality**
 
